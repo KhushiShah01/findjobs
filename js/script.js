@@ -68,6 +68,7 @@ function showJobs(jobs) {
   numJobsTag.innerHTML = `Showing ${numJobs} results`;
 }
 
+
 getJobs().then((data) => {
   showJobs(data);
 });
